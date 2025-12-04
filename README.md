@@ -24,13 +24,13 @@ pip install openpyxl
 - `main.py` – Python script for automation  
 - `inventory_with_summary.xlsx` – Output file with updated values and summary
 
-## 📄 Sample Excel Format
+## Sample Excel Format
 | Product # | Inventory | Price | Supplier   | Inventory Value |
 |-----------|-----------|-------|------------|-----------------|
 | 101       | 100       | 1.00  | Supplier A |                 |
 | 102       | 5         | 0.50  | Supplier B |                 |
 
-## ▶️ Usage
+## Usage
 Run the script:
 ```bash
 python main.py
