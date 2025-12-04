@@ -21,3 +21,10 @@ for product_row in range(2, product_list.max_row + 1):
     # Calculation for total value of inventory per supplier
 
     if supplier_name in total_value_per_supplier:
+        current_num_products = total_value_per_supplier.get(supplier_name)
+        total_value_per_supplier[supplier_name] = current_num_products + inventory + price
+    else:
+        total_value_per_supplier[supplier_name] = inventory * price
+
+print(products_per_supplier)
+print(total_value_per_supplier)
