@@ -52,7 +52,3 @@ Products under 10 inventory: {102: 5}
 
 ## Why It Matters
 This project demonstrates how Python can solve real-world business problems by automating repetitive tasks and generating actionable insights. It’s a great example of combining programming with practical data operations.
-
----
-
-Would you like me to help you add a license, contribution guide, or GitHub badges to make it even more complete?
